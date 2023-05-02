@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "email": "w@gmail.com",
+      "password": "$2a$10$jDN5ItPDl/Etrsy.gx2sdO7ImixqjcoKNXtQAMEhbDUfiUtFkatPm",
+      "first_name": "12341",
+      "last_name": "123124",
+      "password_confirm": "777721",
+      "id": 1
+    },
+    {
+      "email": "wizardcatt@gmail.com",
+      "password": "$2a$10$7zGru5c9RNt1aOP3x0Xnpun0HuROtwIpdD4LPhdP.4CPYbp6ZaFwS",
+      "first_name": "Vasil",
+      "last_name": "Elkin",
+      "password_confirm": "777721",
+      "id": 2
+    },
+    {
+      "email": "w@mail.ru",
+      "password": "$2a$10$u2a2pEfbeldqT2285UUVz.T5Pf58MHw5RKBGSbwhf2UnkfAzAMa1m",
+      "first_name": "Grisha",
+      "last_name": "Elkin",
+      "password_confirm": "777721",
+      "id": 3
+    },
+    {
+      "email": "wsqdadsfas@gmail.com",
+      "password": "$2a$10$lFZf3mirZfKJkEvP8cSZGO600oCWE97n7gp1bPtd9hkQae0cn4Tlu",
+      "first_name": "12313",
+      "last_name": "123123",
+      "password_confirm": "777721",
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "title": "user"
+    }
+  ]
+}
