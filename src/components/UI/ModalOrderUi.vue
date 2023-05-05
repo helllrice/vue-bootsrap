@@ -1,6 +1,6 @@
 <template>
   <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
         подробнее
     </button>
 
@@ -38,7 +38,7 @@
                 <div class="modal-footer">
                     <button
                             type="button"
-                            class="btn btn-primary"
+                            class="btn btn-primary btn-modal"
                             data-bs-dismiss="modal">
                         Закрыть
                     </button>
@@ -55,5 +55,11 @@ export default {
 </script>
 
 <style scoped>
+  .btn-modal {
+      background-color: #2faeab;
+  }
 
+  .btn-modal:hover {
+      background-color: #ffe534;
+  }
 </style>

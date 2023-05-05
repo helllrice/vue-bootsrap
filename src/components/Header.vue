@@ -28,8 +28,14 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-xl-3">
                         <div class="logo d-none d-lg-block">
-                            <a href="index.html"><img src="../assets/images/logo-dark.png" alt="Clenora"
-                                                      class="img-fluid"></a>
+                            <router-link to="/">
+                                <a href="">
+                                    <img
+                                        src="../assets/images/logo-dark.png"
+                                        alt="Clenora"
+                                        class="img-fluid" />
+                                </a>
+                            </router-link>
                         </div>
                     </div>
                     <div class="col-lg-8 col-xl-9">
@@ -84,29 +90,27 @@
                     <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a href="index.html" class="nav-link">
-                                    Home
-                                </a>
+                                <router-link to="/">
+                                    <a href="#" class="nav-link">
+                                        Home
+                                    </a>
+                                </router-link>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Project<i class="fa fa-angle-down"></i>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbar4">
-                                    <a class="dropdown-item " href="project.html">
-                                        Projects
+                                <router-link to="/order">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Order<i class="fa fa-angle-down"></i>
                                     </a>
-                                    <a class="dropdown-item " href="project-details.html">
-                                        Project Details
-                                    </a>
-                                </div>
+                                </router-link>
                             </li>
 
                             <li class="nav-item ">
-                                <a href="about.html" class="nav-link">
-                                    About
-                                </a>
+                                <router-link to="/workers">
+                                    <a href="" class="nav-link">
+                                        Workers
+                                    </a>
+                                </router-link>
                             </li>
                             <li class="nav-item ">
                                 <a href="contact.html" class="nav-link">

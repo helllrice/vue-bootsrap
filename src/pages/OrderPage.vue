@@ -85,9 +85,11 @@
                       <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
                           <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                  <a href="index.html" class="nav-link">
-                                      Home
-                                  </a>
+                                  <router-link to="/">
+                                      <a href="" class="nav-link">
+                                          Home
+                                      </a>
+                                  </router-link>
                               </li>
                               <li class="nav-item dropdown">
                                   <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"

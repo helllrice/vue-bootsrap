@@ -1,6 +1,6 @@
 <template>
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
         подробнее
     </button>
 
@@ -22,7 +22,9 @@
                             <li>Паспорт:
                                 <span v-if="isElVisible">5621 121313</span>
 
-                                <button @click="isElVisible = !isElVisible">Показать / скрыть</button>
+                                <button
+                                    class="btn-modal"
+                                    @click="isElVisible = !isElVisible">Показать / скрыть</button>
 
                             </li>
                         </ul>
@@ -41,7 +43,7 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary btn-modal" data-bs-dismiss="modal">Закрыть</button>
                 </div>
             </div>
         </div>
@@ -73,6 +75,17 @@ export default {
 
  .modal-info {
      padding-left: 15px;
+ }
+
+ .btn-modal {
+     margin-left: 10px;
+     border: none;
+     border-radius: 10px;
+     background-color: #2faeab;
+ }
+
+ .btn-modal:hover {
+     background-color: #FFE534;
  }
 
 </style>
