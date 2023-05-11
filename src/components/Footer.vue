@@ -1,6 +1,6 @@
 <template>
   <!-- Footer section Start -->
-    <section class="footer pt-120">
+    <section class="footer pt-120" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 col-md-6 mr-auto">

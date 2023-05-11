@@ -81,39 +81,49 @@
             <nav class="navbar navbar-expand-md">
                 <div class="container">
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-                            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+
+
 
                     <!-- Collapse -->
                     <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <router-link to="/">
                                     <a href="#" class="nav-link">
                                         Home
                                     </a>
-                                </router-link>
                             </li>
                             <li class="nav-item dropdown">
-                                <router-link to="/order">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" id="navbar4" role="button"
                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Order<i class="fa fa-angle-down"></i>
                                     </a>
-                                </router-link>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Авторизация</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Авторизуйтесь для просмотра страницы
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </li>
 
-                            <li class="nav-item ">
-                                <router-link to="/workers">
-                                    <a href="" class="nav-link">
+                            <li class="nav-item">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link">
                                         Workers
                                     </a>
-                                </router-link>
                             </li>
                             <li class="nav-item ">
-                                <a href="contact.html" class="nav-link">
+                                <a href="#footer" class="nav-link">
                                     Contact
                                 </a>
                             </li>
@@ -162,11 +172,6 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="../assets/images/logo-dark.png" alt="Clenora" class="img-fluid">
                     </a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu2"
-                            aria-controls="navbarMenu2" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icofont-navigation-menu"></span>
-                    </button>
 
                     <!-- Collapse -->
                     <div class="collapse navbar-collapse" id="navbarMenu2">

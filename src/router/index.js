@@ -8,6 +8,7 @@ import profile from "@/pages/Profile.vue";
 import OrderPage from "@/pages/OrderPage.vue";
 import SettingsPage from "@/pages/SettingsPage.vue";
 import ForgotPage from "@/pages/ForgotPage.vue";
+import AdminPage from "@/pages/adminPage/AdminPage.vue";
 
 
 const router = createRouter({
@@ -48,6 +49,10 @@ const router = createRouter({
     {
       path: '/forgot',
       component: ForgotPage
+    },
+    {
+      path: '/admin',
+      component: AdminPage
     }
 
   ]
