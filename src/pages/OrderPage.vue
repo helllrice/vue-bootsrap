@@ -115,14 +115,6 @@
                                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       Blog<i class="fa fa-angle-down"></i>
                                   </a>
-                                  <div class="dropdown-menu" aria-labelledby="navbar4">
-                                      <a class="dropdown-item " href="blog.html">
-                                          Blog
-                                      </a>
-                                      <a class="dropdown-item " href="blog-details.html">
-                                          Blog Details
-                                      </a>
-                                  </div>
                               </li>
                           </ul>
                           <my-dropdown />

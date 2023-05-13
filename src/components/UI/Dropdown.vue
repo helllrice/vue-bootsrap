@@ -5,7 +5,9 @@
         </div>
         <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                <img src="../../assets/images/team/team3.jpg" class="user-img" alt="">
+                <div class="nav-img">
+                    <img src="../../assets/images/team/alex.jpg" class="user-img" alt="">
+                </div>
             </a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -30,12 +32,21 @@ export default {
 </script>
 
 <style scoped>
+    .nav-img {
+        width: 40px;
+        height: 40px;
+    }
 
+    .user-img {
+        border-radius: 100px;
+        width: 100%;
+    }
 
-.user-img {
-    width: 30px;
-    border-radius: 30%;
-    object-fit: cover;
-    cursor: pointer;
-}
+    .dropdown-menu {
+        margin-left: -160px;
+        margin-top: 10px;
+        font-size: 12px;
+        width: 200px;
+    }
+
 </style>
