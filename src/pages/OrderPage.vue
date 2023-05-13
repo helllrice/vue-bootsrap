@@ -85,34 +85,28 @@
                       <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
                           <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                  <router-link to="/">
+                                  <router-link to="/auth-main">
                                       <a href="" class="nav-link">
                                           Home
                                       </a>
                                   </router-link>
                               </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Project<i class="fa fa-angle-down"></i>
-                                  </a>
-                                  <div class="dropdown-menu" aria-labelledby="navbar4">
-                                      <a class="dropdown-item " href="project.html">
-                                          Projects
-                                      </a>
-                                      <a class="dropdown-item " href="project-details.html">
-                                          Project Details
-                                      </a>
-                                  </div>
-                              </li>
-
                               <li class="nav-item ">
-                                  <a href="about.html" class="nav-link">
-                                      About
-                                  </a>
+                                  <router-link to="/order">
+                                      <a href="" class="nav-link">
+                                          Order
+                                      </a>
+                                  </router-link>
                               </li>
                               <li class="nav-item ">
-                                  <a href="contact.html" class="nav-link">
+                                  <router-link to="/workers">
+                                      <a href="" class="nav-link">
+                                          Workers
+                                      </a>
+                                  </router-link>
+                              </li>
+                              <li class="nav-item ">
+                                  <a href="#footer" class="nav-link">
                                       Contact
                                   </a>
                               </li>
@@ -131,84 +125,7 @@
                                   </div>
                               </li>
                           </ul>
-                          <div class="user-profile">
-                              <div class="user-img">
-
-                              </div>
-
-                          </div>
-                      </div> <!-- / .navbar-collapse -->
-                  </div> <!-- / .container -->
-              </nav>
-          </div>
-          <!-- Main Menu End -->
-
-          <div class="site-navigation main_menu d-sm-block d-md-block d-lg-none d-md-none" id="mainmenu-area">
-              <nav class="navbar navbar-expand-lg">
-                  <div class="container">
-                      <a class="navbar-brand" href="index.html">
-                          <img src="../assets/images/logo-dark.png" alt="Clenora" class="img-fluid">
-                      </a>
-
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu2"
-                              aria-controls="navbarMenu2" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="icofont-navigation-menu"></span>
-                      </button>
-
-                      <!-- Collapse -->
-                      <div class="collapse navbar-collapse user-navbar" id="navbarMenu2">
-                          <ul class="navbar-nav mr-auto">
-                              <li class="nav-item ">
-                                  <a href="index.html" class="nav-link  ">
-                                      Home
-                                  </a>
-                              </li>
-
-                              <li class="nav-item ">
-                                  <a href="service.html" class="nav-link  ">
-                                      Services
-                                  </a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Project<i class="fa fa-angle-down"></i>
-                                  </a>
-                                  <div class="dropdown-menu" aria-labelledby="navbar4">
-                                      <a class="dropdown-item " href="project.html">
-                                          Projects
-                                      </a>
-                                      <a class="dropdown-item " href="project-details.html">
-                                          Project Details
-                                      </a>
-                                  </div>
-                              </li>
-
-                              <li class="nav-item ">
-                                  <a href="about.html" class="nav-link  ">
-                                      About
-                                  </a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Blog<i class="fa fa-angle-down"></i>
-                                  </a>
-                                  <div class="dropdown-menu" aria-labelledby="navbar4">
-                                      <a class="dropdown-item " href="blog.html">
-                                          Blog
-                                      </a>
-                                      <a class="dropdown-item " href="blog-details.html">
-                                          Blog Details
-                                      </a>
-                                  </div>
-                              </li>
-                              <li class="nav-item ">
-                                  <a href="contact.html" class="nav-link  ">
-                                      Contact
-                                  </a>
-                              </li>
-                          </ul>
+                          <my-dropdown />
                       </div> <!-- / .navbar-collapse -->
                   </div> <!-- / .container -->
               </nav>
@@ -229,11 +146,12 @@ import MyFooter from "@/components/Footer.vue";
 import TableUi from "@/components/UI/TableUi.vue";
 import ModalUi from "@/components/UI/ModalUi.vue";
 import TableOrderUi from "@/components/UI/TableOrderUi.vue";
+import MyDropdown from "@/components/UI/Dropdown.vue";
 
 
 export default {
     name: "order-page",
-    components: {TableOrderUi, ModalUi, TableUi, MyFooter}
+    components: {MyDropdown, TableOrderUi, ModalUi, TableUi, MyFooter}
 }
 </script>
 

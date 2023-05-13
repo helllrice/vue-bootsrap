@@ -76,7 +76,7 @@ export default {
             })
 
             localStorage.setItem('token', response.data.accessToken);
-            this.$router.push('/profile');
+            this.$router.push('/auth-main');
         }
     },
     data() {

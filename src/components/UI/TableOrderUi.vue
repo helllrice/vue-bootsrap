@@ -62,5 +62,7 @@ export default {
 </script>
 
 <style scoped>
-
+.table-wrap {
+    padding: 50px 0 50px 0;
+}
 </style>

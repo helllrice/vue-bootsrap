@@ -30,10 +30,11 @@ export default {
 </script>
 
 <style scoped>
+
+
 .user-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
+    width: 30px;
+    border-radius: 30%;
     object-fit: cover;
     cursor: pointer;
 }

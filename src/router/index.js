@@ -9,6 +9,7 @@ import OrderPage from "@/pages/OrderPage.vue";
 import SettingsPage from "@/pages/SettingsPage.vue";
 import ForgotPage from "@/pages/ForgotPage.vue";
 import AdminPage from "@/pages/adminPage/AdminPage.vue";
+import AuthPage from "@/pages/AuthPage.vue";
 
 
 const router = createRouter({
@@ -53,7 +54,11 @@ const router = createRouter({
     {
       path: '/admin',
       component: AdminPage
-    }
+    },
+    {
+      path: '/auth-main',
+      component: AuthPage
+    },
 
   ]
 })
