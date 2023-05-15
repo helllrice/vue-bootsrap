@@ -4,7 +4,6 @@ import RegisterForm from "@/pages/RegisterForm.vue";
 import LoginForm from "@/pages/LoginForm.vue";
 import Profile from "@/pages/Profile.vue";
 import Workers from "@/pages/Workers.vue";
-import profile from "@/pages/Profile.vue";
 import OrderPage from "@/pages/OrderPage.vue";
 import SettingsPage from "@/pages/SettingsPage.vue";
 import ForgotPage from "@/pages/ForgotPage.vue";
@@ -26,10 +25,6 @@ const router = createRouter({
     {
       path: '/login',
       component: LoginForm
-    },
-    {
-      path: '/profile',
-      component: Profile
     },
     {
       path: '/workers',

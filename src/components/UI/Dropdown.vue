@@ -4,11 +4,13 @@
 
         </div>
         <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                <div class="nav-img">
-                    <img src="../../assets/images/team/alex.jpg" class="user-img" alt="">
-                </div>
-            </a>
+            <router-link to="/profile">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                    <div class="nav-img">
+                        <img src="../../assets/images/team/alex.jpg" class="user-img" alt="">
+                    </div>
+                </a>
+            </router-link>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
