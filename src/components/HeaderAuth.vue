@@ -96,7 +96,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <router-link to="/order">
+                                <router-link to="/profile">
                                     <a class="nav-link" href="#">
                                         Order<i class="fa fa-angle-down"></i>
                                     </a>

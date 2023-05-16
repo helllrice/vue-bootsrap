@@ -106,7 +106,7 @@
                                 </router-link>
                             </li>
                             <li class="nav-item dropdown">
-                                <router-link to="/order">
+                                <router-link to="/profile">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         order<i class="fa fa-angle-down"></i>

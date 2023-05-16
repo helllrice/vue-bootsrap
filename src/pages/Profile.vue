@@ -91,7 +91,7 @@
                                 </router-link>
                             </li>
                             <li class="nav-item ">
-                                <router-link to="/order">
+                                <router-link to="/profile">
                                     <a href="" class="nav-link">
                                         Order
                                     </a>
@@ -212,7 +212,63 @@
     </header>
 
     <div class="container">
-        <table-order-ui />
+        <div class="table-wrap" >
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">название тарифа</th>
+                    <th scope="col">Дата и время начала исполнения</th>
+                    <th scope="col">Дата и время конец исполнения</th>
+                    <th scope="col">Статус</th>
+                    <th scope="col">Действия</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr v-for="order in orders">
+                    <th scope="row">{{ order.id }}</th>
+                    <td>{{ order.rate }}</td>
+                    <td>{{ order.date }}</td>
+                    <td>03.04.2023,  19:22</td>
+                    <th>создан</th>
+                    <th><modal-order-ui v-bind:orders="orders"/></th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-rate" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Добавить тариф
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Добавить тариф</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-order">
+                            <h5>Выберете тариф</h5>
+                            <select  v-model="selected" class="form-select" aria-label="Default select example">
+                                <option value>тарифы</option>
+                                <option value="Помыть окна (500р)">Помыть окна (500р)</option>
+                                <option value="Сделать полную уборку (1000р)">Сделать полную уборку (1000р)</option>
+                                <option value="Полный клиннинг всего (10000р)">Полный клиннинг всего (10000р)</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button @click="createOrder" type="button" class="btn btn-secondary btn-rate" data-bs-dismiss="modal">добавить тариф</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
         <my-footer />
@@ -224,14 +280,45 @@ import MyHeader from "@/components/Header.vue";
 import MyFooter from "@/components/Footer.vue";
 import TableOrderUi from "@/components/UI/TableOrderUi.vue";
 import MyDropdown from "@/components/UI/Dropdown.vue";
+import ModalOrderUi from "@/components/UI/ModalOrderUi.vue";
 
 export default {
     name: "my-profile",
-    components: {MyDropdown, TableOrderUi, MyFooter, MyHeader, TableUi}
+    components: {ModalOrderUi, MyDropdown, TableOrderUi, MyFooter, MyHeader, TableUi},
+    data() {
+        return {
+            orders: [
+                {id: 1, rate: 'помыть окна', price: 200, date: '03.04.2023, 19:22', status: 'создан',}
+            ],
+            selected: '',
+
+        }
+    },
+    methods: {
+        createOrder() {
+            const newOrder = {
+                id: this.orders.length + 1,
+                rate: this.selected,
+                date: new Date().toLocaleString(),
+                status: 'создан',
+                selected: this.selected
+            }
+            this.orders.push(newOrder)
+        }
+    }
 }
 </script>
 
 <style scoped>
+    .modal-order h5 {
+        padding: 10px;
+    }
+
+     .btn-rate {
+         margin: 10px;
+         background-color: #2faeab;
+     }
+
       .navbar-box {
           padding-top: 10px;
           display: flex;

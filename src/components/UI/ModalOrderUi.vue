@@ -27,11 +27,12 @@
                 </div>
                 <div class="modal-body">
                             <ul>
-                                <li>Тариф: Название(ссылка в новом окне)</li>
-                                <li>Цена:</li>
-                                <li>Услуги: </li>
-                                <li></li>
-                                <li></li>
+                                <li>Тариф: {{ orders[0].rate }}.</li>
+                                <li>Цена: {{  orders[0].price }}.</li>
+                                <li>Описание Услуги: полная очистка ваших окон.</li>
+                                <li>Дата начала исполнения: {{ orders[0].date }}.</li>
+                                <li>Статус: Cоздан.</li>
+                                <li>В ближайщее время с вами свяжется наш менеджер, для уточнения деталей.</li>
                             </ul>
                 </div>
 
@@ -50,7 +51,13 @@
 
 <script>
 export default {
-    name: "ModalOrderUi"
+    name: "ModalOrderUi",
+    props: {
+        orders: {
+            type: Array,
+            required: true
+        }
+    }
 }
 </script>
 
