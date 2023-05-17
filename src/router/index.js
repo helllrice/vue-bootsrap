@@ -7,8 +7,13 @@ import Workers from "@/pages/Workers.vue";
 import OrderPage from "@/pages/OrderPage.vue";
 import SettingsPage from "@/pages/SettingsPage.vue";
 import ForgotPage from "@/pages/ForgotPage.vue";
-import AdminPage from "@/pages/adminPage/AdminPage.vue";
+import AdminPage from "@/pages/adminPage/Dashboard.vue";
 import AuthPage from "@/pages/AuthPage.vue";
+import Dashboard from "@/pages/adminPage/Dashboard.vue";
+import Home from "@/pages/adminPage/AdminWorkers.vue";
+import AdminWorkers from "@/pages/adminPage/AdminWorkers.vue";
+import AdminOrders from "@/pages/adminPage/AdminOrders.vue";
+import AdminSettings from "@/pages/adminPage/AdminSettings.vue";
 
 
 const router = createRouter({
@@ -47,14 +52,25 @@ const router = createRouter({
       component: ForgotPage
     },
     {
-      path: '/admin',
-      component: AdminPage
-    },
-    {
       path: '/auth-main',
       component: AuthPage
     },
-
+    {
+      path: '/admin',
+      component: Dashboard
+    },
+    {
+      path: '/admin-workers',
+      component: AdminWorkers
+    },
+    {
+      path: '/admin-orders',
+      component: AdminOrders
+    },
+    {
+      path: '/admin-settings',
+      component: AdminSettings
+    }
   ]
 })
 

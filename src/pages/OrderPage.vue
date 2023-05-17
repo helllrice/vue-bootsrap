@@ -92,7 +92,7 @@
                                   </router-link>
                               </li>
                               <li class="nav-item ">
-                                  <router-link to="/order">
+                                  <router-link to="/profile">
                                       <a href="" class="nav-link">
                                           Order
                                       </a>

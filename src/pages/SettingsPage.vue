@@ -21,55 +21,6 @@
                 </div>
             </div>
         </div>
-        <!-- Header Top End -->
-        <!-- Header Middle Start -->
-        <!--        <div class="header-middle d-none d-md-block d-lg-block">-->
-        <!--            <div class="container">-->
-        <!--                <div class="row align-items-center">-->
-        <!--                    <div class="col-lg-4 col-xl-3">-->
-        <!--                        <div class="logo d-none d-lg-block">-->
-        <!--                            <a href="index.html"><img src="../assets/images/logo-dark.png" alt="Clenora"-->
-        <!--                                                      class="img-fluid"></a>-->
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                    <div class="col-lg-8 col-xl-9">-->
-        <!--                        <div class="header-mid-info ">-->
-        <!--                            <div class="header-info-single">-->
-        <!--                                <div class="icon-box">-->
-        <!--                                    <font-awesome-icon icon="fa-solid fa-clock" size="lg" style="color: #2faeab;"/>-->
-        <!--                                </div>-->
-        <!--                                <div class="text-box">-->
-        <!--                                    <span>Working hours</span>-->
-        <!--                                    <h5>MON-FRI:9.00-21.00</h5>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-
-        <!--                            <div class="header-info-single">-->
-        <!--                                <div class="icon-box">-->
-        <!--                                    <font-awesome-icon icon="fa-solid fa-phone" size="lg" style="color: #2faeab;" />-->
-        <!--                                </div>-->
-        <!--                                <div class="text-box">-->
-        <!--                                    <span>Hotline 24/7</span>-->
-        <!--                                    <h5><a href="+0962-58-58-258">+0962-58-58-258</a></h5>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-
-        <!--                            <div class="header-info-single">-->
-        <!--                                <div class="icon-box">-->
-        <!--                                    <font-awesome-icon icon="fa-solid fa-envelope" size="lg" style="color: #2faeab;"/>-->
-        <!--                                </div>-->
-        <!--                                <div class="text-box">-->
-        <!--                                    <span>Email Us</span>-->
-        <!--                                    <h5><a href="malito:support@clenora.com.uk">support@clenora.com.uk</a></h5>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!-- Header Middle End -->
-
         <!-- Main Menu Start -->
         <div class="site-navigation main_menu d-none d-lg-block ">
             <nav class="navbar navbar-expand-md">
