@@ -239,7 +239,7 @@
 
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-rate" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-            Добавить тариф
+            Добавить уборку
         </button>
 
         <!-- Modal -->
@@ -247,7 +247,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Добавить тариф</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Создание заявки</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -260,10 +260,37 @@
                                 <option value="Полный клиннинг всего (10000р)">Полный клиннинг всего (10000р)</option>
                             </select>
                         </div>
+                      <br>
+                      <ul>
+                        <li>
+                          <li>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupSelect01">Выбрать Мастера:</label>
+                              <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Мастера</option>
+                                <option value="1">Алексей Васильевич Павлов</option>
+                                <option value="2">Алексей Васильевич Павлов</option>
+                                <option value="3">Алексей Васильевич Павлов</option>
+                              </select>
+                              <p>ознакомиться с нашими мастерами можно
+                                <router-link to="/workers">
+                                  <button class="modal-btn" data-bs-dismiss="modal" >тут</button>
+                                </router-link>
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <p>выбрать время уборки</p>
+                            <DatePicker />
+                          </li>
+                          <br>
+                          <p>после создания заявки с вами свяжется наш менеджер для подтверждения услуги.</p>
+                        </li>
+                      </ul>
 
                     </div>
                     <div class="modal-footer">
-                        <button @click="createOrder" type="button" class="btn btn-secondary btn-rate" data-bs-dismiss="modal">добавить тариф</button>
+                        <button @click="createOrder" type="button" class="btn btn-secondary btn-rate" data-bs-dismiss="modal">Создать заявку</button>
                     </div>
                 </div>
             </div>
@@ -281,10 +308,11 @@ import MyFooter from "@/components/Footer.vue";
 import TableOrderUi from "@/components/UI/TableOrderUi.vue";
 import MyDropdown from "@/components/UI/Dropdown.vue";
 import ModalOrderUi from "@/components/UI/ModalOrderUi.vue";
+import DatePicker from "@/pages/adminPage/Components/DatePicker.vue";
 
 export default {
     name: "my-profile",
-    components: {ModalOrderUi, MyDropdown, TableOrderUi, MyFooter, MyHeader, TableUi},
+    components: {ModalOrderUi, MyDropdown, TableOrderUi, MyFooter, MyHeader, TableUi, DatePicker},
     data() {
         return {
             orders: [
@@ -310,6 +338,12 @@ export default {
 </script>
 
 <style scoped>
+    .modal-btn {
+        border: none;
+        background-color: #fff;
+      color: #2faeab;
+    }
+
     .modal-order h5 {
         padding: 10px;
     }
