@@ -359,7 +359,6 @@ Header MIddle
 .dropdown-item:hover {
     color: #000000;
     text-decoration: none;
-    background-color: #ffe534;
 }
 
 .dropdown-toggle::after {
@@ -372,7 +371,6 @@ Header MIddle
     border: 0px;
     padding: 0px;
     position: absolute;
-    border-top: 2px solid #ffe534;
     min-width: 220px;
 }
 </style>
