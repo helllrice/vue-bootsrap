@@ -1,16 +1,38 @@
 <template>
   <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button
+        type="button"
+        class="btn btn-primary btn-modal"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+    >
         подробнее
     </button>
 
   <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+    >
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Информация о работнике</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5
+                        class="modal-title"
+                        id="exampleModalLabel"
+                    >
+                      Информация о работнике
+                    </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    >
+                    </button>
                 </div>
                 <div class="modal-body">
                     <div class="modal-item">
@@ -21,16 +43,20 @@
                             <li>Телефон: 8 (992) 111 11 11</li>
                             <li>Паспорт:
                                 <span v-if="isElVisible">5621 121313</span>
-
                                 <button
                                         class="btn-modal"
-                                        @click="isElVisible = !isElVisible">Показать / скрыть</button>
-
+                                        @click="isElVisible = !isElVisible"
+                                >
+                                  Показать / скрыть
+                                </button>
                             </li>
                         </ul>
                     </div>
                     <div class="modal-item">
-                        <img src="../../../assets/images/team/team2.jpg" alt="">
+                        <img
+                            src="../../../assets/images/team/team2.jpg"
+                            alt=""
+                        >
                     </div>
                 </div>
                 <div class="modal-info">
@@ -43,7 +69,13 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary btn-modal" data-bs-dismiss="modal">Закрыть</button>
+                    <button
+                        type="button"
+                        class="btn btn-primary btn-modal"
+                        data-bs-dismiss="modal"
+                    >
+                      Закрыть
+                    </button>
                 </div>
             </div>
         </div>

@@ -4,28 +4,58 @@
             <ul class="sidebar-menu">
                 <li>
                     <router-link to="/admin">
-                        <font-awesome-icon icon="fa-solid fa-users" style="color: #008080;" />
-                        <a class="admin-link" href=""> Пользователи</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-users"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Пользователи
+                        </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-workers">
-                        <font-awesome-icon icon="fa-solid fa-briefcase" style="color: #008080;" />
-                        <a class="admin-link" href=""> Работники</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-briefcase"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Работники
+                        </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-orders">
-                        <font-awesome-icon icon="fa-solid fa-clipboard" style="color: #008080;" />
-                        <a class="admin-link" href="">
+                        <font-awesome-icon
+                            icon="fa-solid fa-clipboard"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
                             Заказы
                         </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-settings">
-                        <font-awesome-icon icon="fa-solid fa-gear" style="color: #008080;" />
-                        <a class="admin-link" href="">  Настройки</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-gear"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Настройки
+                        </a>
                     </router-link>
                 </li>
             </ul>
@@ -33,21 +63,51 @@
 
         <div class="main-content">
             <nav class="navbar">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form
+                    class="d-flex"
+                    role="search"
+                >
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                    >
+                    <button
+                        class="btn btn-outline-success"
+                        type="submit"
+                    >
+                      Search
+                    </button>
                 </form>
 
                 <div class="user-profile">
                     <p>jack jones</p>
                     <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href=""
+                            role="button"
+                            aria-expanded="false"
+                        >
                             <div class="nav-img">
-                                <img src="../../assets/images/team/alex.jpg" class="user-img" alt="">
+                                <img
+                                    src="../../assets/images/team/alex.jpg"
+                                    class="user-img"
+                                    alt=""
+                                >
                             </div>
                         </a>
                         <ul class="dropdown-menu">
-                            <li ><router-link to="/" class="dropdown-item">log out</router-link></li>
+                            <li>
+                              <router-link
+                                  to="/"
+                                  class="dropdown-item"
+                              >
+                                log out
+                              </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -60,24 +120,29 @@
                             class="nav-link active"
                             aria-current="page"
                             href="#"
-                        >Cмена пароля</a>
+                        >
+                          Cмена пароля
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a
                             @click="toggleElement2"
                             class="nav-link"
-                            href="#">Изменение Email</a>
+                            href="#"
+                        >
+                          Изменение Email
+                        </a>
                     </li>
                 </ul>
 
-                <div class="form" v-if="isElVisible">
+                <div
+                    class="form"
+                    v-if="isElVisible"
+                >
                     <form
                         @submit.prevent="handleSubmit"
                     >
-                        <h4>
-                            изменение пароля
-                        </h4>
-
+                        <h4>изменение пароля</h4>
                         <div class="form-group">
                             <label>Текущий пароль:</label>
                             <input
@@ -87,7 +152,6 @@
                                 placeholder="Введите текущий пароль"
                             />
                         </div>
-
                         <div class="form-group">
                             <label>Новый пароль:</label>
                             <input
@@ -97,7 +161,6 @@
                                 placeholder="Введите новый пароль"
                             />
                         </div>
-
                         <div class="form-group">
                             <label>Подтвердите новый пароль:</label>
                             <input
@@ -106,20 +169,18 @@
                                 v-model="password"
                                 placeholder="Подтвердите новый новый пароль"
                             />
-
                             <button class="btn btn-primary btn-block btn-reset">Сохранить изменения</button>
-
                         </div>
                     </form>
                 </div>
-                <div class="form" v-if="isElVisible2">
+                <div
+                    class="form"
+                    v-if="isElVisible2"
+                >
                     <form
                         @submit.prevent="handleSubmit"
                     >
-                        <h4>
-                            изменение Email
-                        </h4>
-
+                        <h4>изменение Email</h4>
                         <div class="form-group">
                             <label>Текущий Email:</label>
                             <input
@@ -129,7 +190,6 @@
                                 placeholder="Введите текущий пароль"
                             />
                         </div>
-
                         <div class="form-group">
                             <label>Новый Email:</label>
                             <input
@@ -139,21 +199,25 @@
                                 placeholder="Введите новый пароль"
                             />
                         </div>
-
                         <div>
-                            <input type="checkbox" id="scales" name="scales" checked>
-                            <label for="scales" class="checkbox-email"> Получать дополнительную информацию на вам Email</label>
+                            <input
+                                type="checkbox"
+                                id="scales"
+                                name="scales"
+                                checked
+                            >
+                            <label
+                                for="scales"
+                                class="checkbox-email"
+                            >
+                              Получать дополнительную информацию на вам Email
+                            </label>
                         </div>
-
                         <div class="form-group">
-
                             <button class="btn btn-primary btn-block btn-reset">Сохранить изменения</button>
-
                         </div>
                     </form>
                 </div>
-
-
             <my-footer />
         </div>
     </div>

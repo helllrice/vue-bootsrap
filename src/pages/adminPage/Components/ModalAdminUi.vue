@@ -1,10 +1,27 @@
 <template>
-  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+  >
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel">Информация о пользоватееле</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5
+              class="modal-title"
+              id="exampleModalToggleLabel"
+          >
+            Информация о пользоватееле
+          </h5>
+          <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+          >
+          </button>
         </div>
         <div class="modal-body">
           <div class="modal-item">
@@ -17,15 +34,34 @@
               <br>
               <li>
                 <div class="input-group flex-nowrap">
-                  <span class="input-group-text" id="addon-wrapping">Изменить Email</span>
-                  <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping">
+                  <span
+                      class="input-group-text"
+                      id="addon-wrapping"
+                  >
+                    Изменить Email
+                  </span>
+                  <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email"
+                      aria-label="Email"
+                      aria-describedby="addon-wrapping"
+                  >
                 </div>
               </li>
               <br>
               <li>
                 <div class="input-group mb-3">
-                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                  <select class="form-select" id="inputGroupSelect01">
+                  <label
+                      class="input-group-text"
+                      for="inputGroupSelect01"
+                  >
+                    Options
+                  </label>
+                  <select
+                      class="form-select"
+                      id="inputGroupSelect01"
+                  >
                     <option selected>Статус</option>
                     <option value="1">Активирован</option>
                     <option value="2">Неактивирован</option>
@@ -35,8 +71,19 @@
               <li>
                 <br>
                 <div class="input-group flex-nowrap">
-                  <span class="input-group-text" id="addon-wrapping">Изменить Пароль</span>
-                  <input type="text" class="form-control" placeholder="Новый пароль" aria-label="password" aria-describedby="addon-wrapping">
+                  <span
+                      class="input-group-text"
+                      id="addon-wrapping"
+                  >
+                    Изменить Пароль
+                  </span>
+                  <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Новый пароль"
+                      aria-label="password"
+                      aria-describedby="addon-wrapping"
+                  >
                 </div>
               </li>
               <br>
@@ -63,7 +110,14 @@
                       <td>03.04.2023,  19:22</td>
                       <th>создан</th>
                       <th>
-                        <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подробнее</button>
+                        <button
+                            class="btn btn-primary btn-modal"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal"
+                            data-bs-dismiss="modal"
+                        >
+                          Подробнее
+                        </button>
                       </th>
                     </tr>
                     <tr>
@@ -73,7 +127,14 @@
                       <td>03.04.2023,  19:22</td>
                       <th>создан</th>
                       <th>
-                        <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подробнее</button>
+                        <button
+                            class="btn btn-primary btn-modal"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal"
+                            data-bs-dismiss="modal"
+                        >
+                          Подробнее
+                        </button>
                       </th>
                     </tr>
                     <tr>
@@ -83,7 +144,14 @@
                       <td>03.04.2023,  19:22</td>
                       <th>создан</th>
                       <th>
-                        <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подробнее</button>
+                        <button
+                            class="btn btn-primary btn-modal"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal"
+                            data-bs-dismiss="modal"
+                        >
+                          Подробнее
+                        </button>
                       </th>
                     </tr>
                     <tr>
@@ -93,7 +161,14 @@
                       <td>03.04.2023,  19:22</td>
                       <th>создан</th>
                       <th>
-                        <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подробнее</button>
+                        <button
+                            class="btn btn-primary btn-modal"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal"
+                            data-bs-dismiss="modal"
+                        >
+                          Подробнее
+                        </button>
                       </th>
                     </tr>
                     <tr>
@@ -103,7 +178,14 @@
                       <td>03.04.2023,  19:22</td>
                       <th>создан</th>
                       <th>
-                        <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подробнее</button>
+                        <button
+                            class="btn btn-primary btn-modal"
+                            data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal"
+                            data-bs-dismiss="modal"
+                        >
+                          Подробнее
+                        </button>
                       </th>
                     </tr>
                     </tbody>
@@ -114,18 +196,47 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-modal" data-bs-dismiss="modal">Закрыть</button>
-          <button class="btn btn-primary btn-modal" data-bs-toggle="modal" data-bs-dismiss="modal">Сохранить</button>
+          <button
+              type="button"
+              class="btn btn-secondary btn-modal"
+              data-bs-dismiss="modal"
+          >
+            Закрыть
+          </button>
+          <button
+              class="btn btn-primary btn-modal"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+          >
+            Сохранить
+          </button>
         </div>
       </div>
     </div>
   </div>
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div
+      class="modal fade"
+      id="exampleModalToggle2"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1"
+  >
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">информация о заказе Пользователя</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5
+              class="modal-title"
+              id="exampleModalToggleLabel2"
+          >
+            информация о заказе Пользователя
+          </h5>
+          <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+          >
+          </button>
         </div>
         <div class="modal-body">
           <div class="modal-item">
@@ -142,13 +253,33 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary btn-modal" data-bs-dismiss="modal">Закрыть</button>
-          <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Информация о пользователе</button>
+          <button
+              type="button"
+              class="btn btn-secondary btn-modal"
+              data-bs-dismiss="modal"
+          >
+            Закрыть
+          </button>
+          <button
+              class="btn btn-primary btn-modal"
+              data-bs-target="#exampleModalToggle"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+          >
+            Информация о пользователе
+          </button>
         </div>
       </div>
     </div>
   </div>
-  <a class="btn btn-primary btn-modal" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Подробнее</a>
+  <a
+      class="btn btn-primary btn-modal"
+      data-bs-toggle="modal"
+      href="#exampleModalToggle"
+      role="button"
+  >
+    Подробнее
+  </a>
 </template>
 
 <script>
@@ -171,10 +302,6 @@ export default {
     border-radius: 100px;
     width: 100px;
     height: 100px;
-}
-
-.modal-info {
-    padding-left: 15px;
 }
 
 .btn-modal {

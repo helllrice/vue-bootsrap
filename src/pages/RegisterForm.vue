@@ -2,8 +2,14 @@
     <div class="register-form">
         <nav class="navbar bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="../assets/images/logo-dark.png" alt="">
+                <a
+                    class="navbar-brand"
+                    href="#"
+                >
+                    <img
+                        src="../assets/images/logo-dark.png"
+                        alt=""
+                    >
                 </a>
                 <div class="navbar-box">
                     <div class="navbar-item">
@@ -30,7 +36,8 @@
                             type="text"
                             class="form-control"
                             v-model="first_name"
-                            placeholder="First Name"/>
+                            placeholder="First Name"
+                        />
                     </div>
 
                     <div class="form-group">
@@ -39,7 +46,8 @@
                             type="text"
                             class="form-control"
                             v-model="last_name"
-                            placeholder="Last Name"/>
+                            placeholder="Last Name"
+                        />
                     </div>
 
                     <div class="form-group">
@@ -48,7 +56,8 @@
                             type="email"
                             class="form-control"
                             v-model="email"
-                            placeholder="Email"/>
+                            placeholder="Email"
+                        />
                     </div>
 
                     <div class="form-group">
@@ -57,7 +66,8 @@
                             type="password"
                             class="form-control"
                             v-model="password"
-                            placeholder="Password"/>
+                            placeholder="Password"
+                        />
                     </div>
 
                     <div class="form-group">
@@ -66,9 +76,9 @@
                             type="password"
                             class="form-control"
                             v-model="password_confirm"
-                            placeholder="Confirm Password"/>
+                            placeholder="Confirm Password"
+                        />
                     </div>
-
                     <button class="btn btn-primary btn-block btn-reg">Sing Up</button>
                 </form>
             </div>

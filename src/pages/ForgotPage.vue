@@ -1,8 +1,14 @@
 <template>
     <nav class="navbar bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/images/logo-dark.png" alt="">
+            <a
+                class="navbar-brand"
+                href="#"
+            >
+                <img
+                    src="../assets/images/logo-dark.png"
+                    alt=""
+                >
             </a>
             <div class="navbar-box">
                 <div class="navbar-item">
@@ -37,22 +43,44 @@
                 </div>
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-forgot" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button
+                    type="button"
+                    class="btn btn-primary btn-forgot"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                >
                     submit
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                >
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">успешно</h5>
+                                <h5
+                                    class="modal-title"
+                                    id="exampleModalLabel"
+                                >
+                                  успешно
+                                </h5>
                             </div>
                             <div class="modal-body">
                                 инструкция по сбросу пароля отправлена на ваш Email.
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">закрыть</button>
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                >
+                                  закрыть
+                                </button>
                             </div>
                         </div>
                     </div>

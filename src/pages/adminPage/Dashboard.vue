@@ -4,51 +4,109 @@
             <ul>
                 <li>
                     <router-link to="/admin">
-                        <font-awesome-icon icon="fa-solid fa-users" style="color: #008080;" />
-                        <a class="admin-link" href=""> Пользователи</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-users"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Пользователи
+                        </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-workers">
-                        <font-awesome-icon icon="fa-solid fa-briefcase" style="color: #008080;" />
-                        <a class="admin-link" href=""> Работники</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-briefcase"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Работники
+                        </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-orders">
-                        <font-awesome-icon icon="fa-solid fa-clipboard" style="color: #008080;" />
-                        <a class="admin-link" href="">
+                        <font-awesome-icon
+                            icon="fa-solid fa-clipboard"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
                               Заказы
                         </a>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin-settings">
-                        <font-awesome-icon icon="fa-solid fa-gear" style="color: #008080;" />
-                        <a class="admin-link" href="">  Настройки</a>
+                        <font-awesome-icon
+                            icon="fa-solid fa-gear"
+                            style="color: #008080;"
+                        />
+                        <a
+                            class="admin-link"
+                            href=""
+                        >
+                          Настройки
+                        </a>
                     </router-link>
                 </li>
-                <li></li>
             </ul>
         </div>
 
         <div class="main-content">
             <nav class="navbar">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form
+                    class="d-flex"
+                    role="search"
+                >
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                    >
+                    <button
+                        class="btn btn-outline-success"
+                        type="submit"
+                    >
+                      Search
+                    </button>
                 </form>
 
                 <div class="user-profile">
                     <p>jack jones</p>
                     <div class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            href=""
+                            role="button"
+                            aria-expanded="false"
+                        >
                             <div class="nav-img">
-                                <img src="../../assets/images/team/alex.jpg" class="user-img" alt="">
+                                <img
+                                    src="../../assets/images/team/alex.jpg"
+                                    class="user-img"
+                                    alt=""
+                                >
                             </div>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><router-link to="/" class="dropdown-item">log out</router-link></li>
+                            <li>
+                              <router-link
+                                  to="/"
+                                  class="dropdown-item">
+                                log out
+                              </router-link>
+                            </li>
                         </ul>
                     </div>
                 </div>

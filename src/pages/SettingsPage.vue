@@ -1,78 +1,5 @@
 <template>
-    <header class="header">
-        <!-- Header Top Start -->
-        <div class="header-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="header-top-info text-center text-lg-left">
-                            <i class="icofont-google-map"></i><strong> ADDRESS:</strong>568 Elizaberth Str, London, UK
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="header-top-socials float-lg-right text-center ">
-                            <a href="https://twitter.com"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                            <a href="https://facebook.com"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                            <a href="https://instagram.com"><font-awesome-icon icon="fa-solid fa-rss" /></a>
-                            <a href="https://www.feedspot.com"><font-awesome-icon icon="fa-solid fa-circle-play" /></a>
-                            <a href="https://youtube.com/"><font-awesome-icon icon="fa-brands fa-instagram" size="lg"/></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Main Menu Start -->
-        <div class="site-navigation main_menu d-none d-lg-block ">
-            <nav class="navbar navbar-expand-md">
-                <div class="container">
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-                            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars"></span>
-                    </button>
-
-                    <!-- Collapse -->
-                    <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <router-link to="/auth-main">
-                                    <a href="" class="nav-link">
-                                        Home
-                                    </a>
-                                </router-link>
-                            </li>
-
-                            <li class="nav-item ">
-                                <router-link to="/profile">
-                                    <a href="" class="nav-link">
-                                        profile
-                                    </a>
-                                </router-link>
-                            </li>
-                            <li class="nav-item ">
-                                <router-link to="/workers">
-                                    <a href="" class="nav-link">
-                                        workers
-                                    </a>
-                                </router-link>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <router-link to="/profile">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        order<i class="fa fa-angle-down"></i>
-                                    </a>
-                                </router-link>
-                            </li>
-                        </ul>
-                        <my-dropdown />
-                    </div> <!-- / .navbar-collapse -->
-                </div> <!-- / .container -->
-            </nav>
-        </div>
-        <!-- Main Menu End -->
-
-    </header>
+    <my-header-auth />
 
     <div class="container">
         <ul class="nav nav-tabs">
@@ -82,24 +9,29 @@
                    class="nav-link active"
                    aria-current="page"
                    href="#"
-                >Cмена пароля</a>
+                >
+                  Cмена пароля
+                </a>
             </li>
             <li class="nav-item">
                 <a
                     @click="toggleElement2"
                     class="nav-link"
-                    href="#">Изменение Email</a>
+                    href="#"
+                >
+                  Изменение Email
+                </a>
             </li>
         </ul>
 
-        <div class="form" v-if="isElVisible">
+        <div
+            class="form"
+            v-if="isElVisible"
+        >
             <form
                 @submit.prevent="handleSubmit"
             >
-                <h4>
-                    изменение пароля
-                </h4>
-
+                <h4>изменение пароля</h4>
                 <div class="form-group">
                     <label>Текущий пароль:</label>
                     <input
@@ -109,7 +41,6 @@
                         placeholder="Введите текущий пароль"
                     />
                 </div>
-
                 <div class="form-group">
                     <label>Новый пароль:</label>
                     <input
@@ -119,7 +50,6 @@
                         placeholder="Введите новый пароль"
                     />
                 </div>
-
                 <div class="form-group">
                     <label>Подтвердите новый пароль:</label>
                     <input
@@ -128,20 +58,19 @@
                         v-model="password"
                         placeholder="Подтвердите новый новый пароль"
                     />
-
                     <button class="btn btn-primary btn-block btn-reset">Сохранить изменения</button>
 
                 </div>
             </form>
         </div>
-        <div class="form" v-if="isElVisible2">
+        <div
+            class="form"
+            v-if="isElVisible2"
+        >
             <form
                 @submit.prevent="handleSubmit"
             >
-                <h4>
-                    изменение Email
-                </h4>
-
+                <h4>изменение Email</h4>
                 <div class="form-group">
                     <label>Текущий Email:</label>
                     <input
@@ -151,7 +80,6 @@
                         placeholder="Введите текущий пароль"
                     />
                 </div>
-
                 <div class="form-group">
                     <label>Новый Email:</label>
                     <input
@@ -161,26 +89,26 @@
                         placeholder="Введите новый пароль"
                     />
                 </div>
-
                 <div>
-                    <input type="checkbox" id="scales" name="scales" checked>
-                    <label for="scales" class="checkbox-email"> Получать дополнительную информацию на вам Email</label>
+                    <input
+                        type="checkbox"
+                        id="scales"
+                        name="scales"
+                        checked
+                    >
+                    <label
+                        for="scales"
+                        class="checkbox-email"
+                    >
+                      Получать дополнительную информацию на вам Email
+                    </label>
                 </div>
-
                 <div class="form-group">
-
                     <button class="btn btn-primary btn-block btn-reset">Сохранить изменения</button>
-
                 </div>
             </form>
         </div>
     </div>
-
-
-
-
-
-
     <my-footer />
 </template>
 
@@ -188,10 +116,11 @@
 import MyFooter from "@/components/Footer.vue";
 import TableOrderUi from "@/components/UI/TableOrderUi.vue";
 import MyDropdown from "@/components/UI/Dropdown.vue";
+import MyHeaderAuth from "@/components/HeaderAuth.vue";
 
 export default {
     name: "SettingsPage",
-    components: {MyDropdown, TableOrderUi, MyFooter},
+    components: {MyHeaderAuth, MyDropdown, TableOrderUi, MyFooter},
     data: () => {
         return {
             isElVisible: true,

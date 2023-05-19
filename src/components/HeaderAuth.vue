@@ -6,16 +6,31 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="header-top-info text-center text-lg-left">
-                            <i class="icofont-google-map"></i><strong> ADDRESS:</strong>568 Elizaberth Str, London, UK
+                            <i class="icofont-google-map"></i>
+                          <strong> ADDRESS:</strong>
+                          568 Elizaberth Str, London, UK
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="header-top-socials float-lg-right text-center ">
-                            <a href="https://twitter.com"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                            <a href="https://facebook.com"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                            <a href="https://instagram.com"><font-awesome-icon icon="fa-solid fa-rss" /></a>
-                            <a href="https://www.feedspot.com"><font-awesome-icon icon="fa-solid fa-circle-play" /></a>
-                            <a href="https://youtube.com/"><font-awesome-icon icon="fa-brands fa-instagram" size="lg"/></a>
+                            <a href="https://twitter.com">
+                              <font-awesome-icon icon="fa-brands fa-twitter" />
+                            </a>
+                            <a href="https://facebook.com">
+                              <font-awesome-icon icon="fa-brands fa-facebook" />
+                            </a>
+                            <a href="https://instagram.com">
+                              <font-awesome-icon icon="fa-solid fa-rss" />
+                            </a>
+                            <a href="https://www.feedspot.com">
+                              <font-awesome-icon icon="fa-solid fa-circle-play" />
+                            </a>
+                            <a href="https://youtube.com/">
+                              <font-awesome-icon
+                                  icon="fa-brands fa-instagram"
+                                  size="lg"
+                              />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +48,8 @@
                                     <img
                                             src="../assets/images/logo-dark.png"
                                             alt="Clenora"
-                                            class="img-fluid" />
+                                            class="img-fluid"
+                                    />
                                 </a>
                             </router-link>
                         </div>
@@ -42,7 +58,11 @@
                         <div class="header-mid-info ">
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-clock" size="lg" style="color: #2faeab;"/>
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-clock"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Working hours</span>
@@ -52,21 +72,33 @@
 
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-phone" size="lg" style="color: #2faeab;" />
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-phone"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Hotline 24/7</span>
-                                    <h5><a href="+0962-58-58-258">+0962-58-58-258</a></h5>
+                                    <h5>
+                                      <a href="+0962-58-58-258">+0962-58-58-258</a>
+                                    </h5>
                                 </div>
                             </div>
 
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-envelope" size="lg" style="color: #2faeab;"/>
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-envelope"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Email Us</span>
-                                    <h5><a href="malito:support@clenora.com.uk">support@clenora.com.uk</a></h5>
+                                    <h5>
+                                      <a href="malito:support@clenora.com.uk">support@clenora.com.uk</a>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
@@ -80,45 +112,75 @@
         <div class="site-navigation main_menu d-none d-lg-block ">
             <nav class="navbar navbar-expand-md">
                 <div class="container">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation"
+                    >
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-
-
                     <!-- Collapse -->
-                    <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
+                    <div
+                        class="collapse navbar-collapse navbar-box"
+                        id="navbarMenu"
+                    >
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a href="#" class="nav-link">
-                                    Home
+                              <router-link to="/auth-main">
+                                <a
+                                    href="#"
+                                    class="nav-link"
+                                >
+                                  Home
                                 </a>
+                              </router-link>
                             </li>
                             <li class="nav-item">
                                 <router-link to="/profile">
-                                    <a class="nav-link" href="#">
-                                        Order<i class="fa fa-angle-down"></i>
+                                    <a
+                                        class="nav-link"
+                                        href="#"
+                                    >
+                                        Order
+                                      <i class="fa fa-angle-down"></i>
                                     </a>
                                 </router-link>
                             </li>
 
                             <li class="nav-item">
                                 <router-link to="/workers">
-                                    <a href=""  class="nav-link">
+                                    <a
+                                        href=""
+                                        class="nav-link"
+                                    >
                                         Workers
                                     </a>
                                 </router-link>
                             </li>
                             <li class="nav-item ">
-                                <a href="#footer" class="nav-link">
+                                <a
+                                    href="#footer"
+                                    class="nav-link"
+                                >
                                     Contact
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<i class="fa fa-angle-down"></i>
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbar4"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                    Blog
+                                  <i class="fa fa-angle-down"></i>
                                 </a>
                             </li>
                         </ul>
@@ -153,15 +215,6 @@ export default {
 /*====================
 Banner Area
 ======================*/
-.section-padding {
-    padding: 130px 0px;
-}
-
-.page-header {
-    padding: 100px 0px 100px;
-    text-align: center;
-    border-top: 1px solid #e0e0e0;
-}
 
 .page-header .page-header-content h2 {
     color: #999999;
@@ -215,22 +268,6 @@ Banner Area
 
 .section-heading h3 {
     margin-bottom: 30px;
-}
-
-.text-color {
-    color: #ffe534;
-}
-
-.text-color2 {
-    color: #259392;
-}
-
-.pt-200 {
-    padding-top: 200px !important;
-}
-
-.section-bottom {
-    padding-bottom: 120px;
 }
 
 /*=======================
@@ -290,10 +327,6 @@ Header MIddle
     color: #000;
 }
 
-.header-right-info .btn {
-    border-radius: 0px;
-}
-
 /*-------------------
    MENU
 ----------------------*/
@@ -344,22 +377,6 @@ Header MIddle
 /*-------------------
   DROPDOWN MENU
 ----------------------*/
-.dropdown-item {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    transition: background-color .1s;
-    text-transform: capitalize;
-    text-transform: uppercase;
-}
-
-.dropdown-item:last-child {
-    border-color: transparent;
-}
-
-.dropdown-item:hover {
-    color: #000000;
-    text-decoration: none;
-}
 
 .dropdown-toggle::after {
     display: none;

@@ -1,8 +1,14 @@
 <template>
     <nav class="navbar bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="../assets/images/logo-dark.png" alt="">
+            <a
+                class="navbar-brand"
+                href="#"
+            >
+                <img
+                    src="../assets/images/logo-dark.png"
+                    alt=""
+                >
             </a>
             <div class="navbar-box">
                 <div class="navbar-item">
@@ -23,7 +29,6 @@
                 @submit.prevent="handleSubmit"
             >
                 <h3>Login</h3>
-
                 <div class="form-group">
                     <label>Email</label>
                     <input
@@ -33,7 +38,6 @@
                         placeholder="Email"
                     />
                 </div>
-
                 <div class="form-group">
                     <label>
                         Password
@@ -44,9 +48,7 @@
                         v-model="password"
                         placeholder="Password"
                     />
-
                     <button class="btn btn-primary btn-block btn-log">Login</button>
-
                     <p class="forgot-password text-right">
                         <router-link to="forgot">
                             Forgot password?
@@ -56,7 +58,6 @@
             </form>
         </div>
     </div>
-
 
     <my-footer />
 </template>

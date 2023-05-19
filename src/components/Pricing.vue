@@ -4,12 +4,13 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-heading">
-                        <h2><span>Pricing & Plan</span>suit for any your space</h2>
+                        <h2>
+                          <span>Pricing & Plan</span>
+                          suit for any your space</h2>
 
                     </div>
                 </div>
             </div>
-
             <div class="card-box">
                 <card-ui/>
                 <card-ui/>

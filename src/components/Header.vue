@@ -6,16 +6,31 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="header-top-info text-center text-lg-left">
-                            <i class="icofont-google-map"></i><strong> ADDRESS:</strong>568 Elizaberth Str, London, UK
+                            <i class="icofont-google-map"></i>
+                          <strong> ADDRESS:</strong>
+                          568 Elizaberth Str, London, UK
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="header-top-socials float-lg-right text-center ">
-                            <a href="https://twitter.com"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                            <a href="https://facebook.com"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                            <a href="https://instagram.com"><font-awesome-icon icon="fa-solid fa-rss" /></a>
-                            <a href="https://www.feedspot.com"><font-awesome-icon icon="fa-solid fa-circle-play" /></a>
-                            <a href="https://youtube.com/"><font-awesome-icon icon="fa-brands fa-instagram" size="lg"/></a>
+                            <a href="https://twitter.com">
+                              <font-awesome-icon icon="fa-brands fa-twitter" />
+                            </a>
+                            <a href="https://facebook.com">
+                              <font-awesome-icon icon="fa-brands fa-facebook" />
+                            </a>
+                            <a href="https://instagram.com">
+                              <font-awesome-icon icon="fa-solid fa-rss" />
+                            </a>
+                            <a href="https://www.feedspot.com">
+                              <font-awesome-icon icon="fa-solid fa-circle-play" />
+                            </a>
+                            <a href="https://youtube.com/">
+                              <font-awesome-icon
+                                  icon="fa-brands fa-instagram"
+                                  size="lg"
+                              />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +48,8 @@
                                     <img
                                         src="../assets/images/logo-dark.png"
                                         alt="Clenora"
-                                        class="img-fluid" />
+                                        class="img-fluid"
+                                    />
                                 </a>
                             </router-link>
                         </div>
@@ -42,7 +58,11 @@
                         <div class="header-mid-info ">
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-clock" size="lg" style="color: #2faeab;"/>
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-clock"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Working hours</span>
@@ -52,21 +72,33 @@
 
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-phone" size="lg" style="color: #2faeab;" />
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-phone"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Hotline 24/7</span>
-                                    <h5><a href="+0962-58-58-258">+0962-58-58-258</a></h5>
+                                    <h5>
+                                      <a href="+0962-58-58-258">+0962-58-58-258</a>
+                                    </h5>
                                 </div>
                             </div>
 
                             <div class="header-info-single">
                                 <div class="icon-box">
-                                    <font-awesome-icon icon="fa-solid fa-envelope" size="lg" style="color: #2faeab;"/>
+                                    <font-awesome-icon
+                                        icon="fa-solid fa-envelope"
+                                        size="lg"
+                                        style="color: #2faeab;"
+                                    />
                                 </div>
                                 <div class="text-box">
                                     <span>Email Us</span>
-                                    <h5><a href="malito:support@clenora.com.uk">support@clenora.com.uk</a></h5>
+                                    <h5>
+                                      <a href="malito:support@clenora.com.uk">support@clenora.com.uk</a>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
@@ -80,33 +112,68 @@
         <div class="site-navigation main_menu d-none d-lg-block ">
             <nav class="navbar navbar-expand-md">
                 <div class="container">
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation"
+                    >
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-
-
                     <!-- Collapse -->
-                    <div class="collapse navbar-collapse navbar-box" id="navbarMenu">
+                    <div
+                        class="collapse navbar-collapse navbar-box"
+                        id="navbarMenu"
+                    >
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                    <a href="#" class="nav-link">
+                                    <a
+                                        href="#"
+                                        class="nav-link"
+                                    >
                                         Home
                                     </a>
                             </li>
                             <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" id="navbar4" role="button"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Order<i class="fa fa-angle-down"></i>
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                        href="#"
+                                        id="navbar4"
+                                        role="button"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                    >
+                                        Order
+                                      <i class="fa fa-angle-down"></i>
                                     </a>
 
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal fade"
+                                    id="exampleModal"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true"
+                                >
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Авторизация</h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                <h1
+                                                    class="modal-title fs-5"
+                                                    id="exampleModalLabel"
+                                                >Авторизация
+                                                </h1>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"
+                                                ></button>
                                             </div>
                                             <div class="modal-body">
                                                 Авторизуйтесь для просмотра страницы
@@ -118,25 +185,48 @@
                             </li>
 
                             <li class="nav-item">
-                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link">
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"
+                                        class="nav-link"
+                                    >
                                         Workers
                                     </a>
                             </li>
-                            <li class="nav-item ">
-                                <a href="#footer" class="nav-link">
+                            <li class="nav-item">
+                                <a
+                                    href="#footer"
+                                    class="nav-link"
+                                >
                                     Contact
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<i class="fa fa-angle-down"></i>
+                                <a class="nav-link dropdown-toggle"
+                                   href="#"
+                                   id="navbar4"
+                                   role="button"
+                                   data-toggle="dropdown"
+                                   aria-haspopup="true"
+                                   aria-expanded="false"
+                                >
+                                    Blog
+                                  <i class="fa fa-angle-down"></i>
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbar4">
-                                    <a class="dropdown-item " href="blog.html">
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbar4">
+                                    <a
+                                        class="dropdown-item "
+                                        href="#"
+                                    >
                                         Blog
                                     </a>
-                                    <a class="dropdown-item " href="blog-details.html">
+                                    <a
+                                        class="dropdown-item"
+                                        href="#"
+                                    >
                                         Blog Details
                                     </a>
                                 </div>
@@ -145,16 +235,24 @@
                         <div class="header-register-btns">
                             <div class="header-right-info d-none d-lg-block btn-register-left">
                                 <router-link to="/login">
-                                    <a href="#" class="btn btn-main">
+                                    <a
+                                        href="#"
+                                        class="btn btn-main"
+                                    >
                                         <i class="icofont-google-map mr-2"></i>
-                                        login</a>
+                                        login
+                                    </a>
                                 </router-link>
                             </div>
                             <div class="header-right-info d-none d-lg-block">
                                 <router-link to="/register">
-                                    <a href="#" class="btn btn-main">
+                                    <a
+                                        href="#"
+                                        class="btn btn-main"
+                                    >
                                         <i class="icofont-google-map mr-2"></i>
-                                        sing up</a>
+                                        sing up
+                                    </a>
                                 </router-link>
                             </div>
                             <div class="header-user">
@@ -166,63 +264,118 @@
         </div>
         <!-- Main Menu End -->
 
-        <div class="site-navigation main_menu d-sm-block d-md-block d-lg-none d-md-none" id="mainmenu-area">
+        <div
+            class="site-navigation main_menu d-sm-block d-md-block d-lg-none d-md-none"
+            id="mainmenu-area"
+        >
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="../assets/images/logo-dark.png" alt="Clenora" class="img-fluid">
+                    <a
+                        class="navbar-brand"
+                        href="#">
+                        <img
+                            src="../assets/images/logo-dark.png"
+                            alt="Clenora"
+                            class="img-fluid"
+                        >
                     </a>
 
                     <!-- Collapse -->
-                    <div class="collapse navbar-collapse" id="navbarMenu2">
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarMenu2"
+                    >
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item ">
-                                <a href="index.html" class="nav-link  ">
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link"
+                                >
                                     Home
                                 </a>
                             </li>
 
-                            <li class="nav-item ">
-                                <a href="service.html" class="nav-link  ">
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link">
                                     Services
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Project<i class="fa fa-angle-down"></i>
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#" id="navbar4"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                  Project
+                                  <i class="fa fa-angle-down"></i>
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbar4">
-                                    <a class="dropdown-item " href="project.html">
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbar4"
+                                >
+                                    <a
+                                       class="dropdown-item"
+                                       href="#"
+                                    >
                                         Projects
                                     </a>
-                                    <a class="dropdown-item " href="project-details.html">
+                                    <a
+                                        class="dropdown-item"
+                                        href="project-details.html"
+                                    >
                                         Project Details
                                     </a>
                                 </div>
                             </li>
 
                             <li class="nav-item ">
-                                <a href="about.html" class="nav-link  ">
+                                <a
+                                    href="about.html"
+                                    class="nav-link"
+                                >
                                     About
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbar4" role="button"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<i class="fa fa-angle-down"></i>
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#" id="navbar4"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                    Blog
+                                  <i class="fa fa-angle-down"></i>
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbar4">
-                                    <a class="dropdown-item " href="blog.html">
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbar4"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="#"
+                                    >
                                         Blog
                                     </a>
-                                    <a class="dropdown-item " href="blog-details.html">
+                                    <a
+                                        class="dropdown-item"
+                                        href="#"
+                                    >
                                         Blog Details
                                     </a>
                                 </div>
                             </li>
-                            <li class="nav-item ">
-                                <a href="contact.html" class="nav-link  ">
+                            <li class="nav-item">
+                                <a
+                                    href="#"
+                                    class="nav-link"
+                                >
                                     Contact
                                 </a>
                             </li>
@@ -254,15 +407,6 @@ export default {
 /*====================
 Banner Area
 ======================*/
-.section-padding {
-    padding: 130px 0px;
-}
-
-.page-header {
-    padding: 100px 0px 100px;
-    text-align: center;
-    border-top: 1px solid #e0e0e0;
-}
 
 .page-header .page-header-content h2 {
     color: #999999;
@@ -295,11 +439,6 @@ Banner Area
     color: #000;
 }
 
-.section-heading {
-    text-align: center;
-    margin-bottom: 90px;
-}
-
 .section-heading h2 {
     font-size: 60px;
     line-height: 60px;
@@ -318,25 +457,6 @@ Banner Area
     margin-bottom: 30px;
 }
 
-.text-color {
-    color: #ffe534;
-}
-
-.text-color2 {
-    color: #259392;
-}
-
-.pt-200 {
-    padding-top: 200px !important;
-}
-
-.section-bottom {
-    padding-bottom: 120px;
-}
-
-/*=======================
-Header TopBar
-============================*/
 .header-top {
     border-bottom: 1px solid #ececec;
     padding: 10px 0px;

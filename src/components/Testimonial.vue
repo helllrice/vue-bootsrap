@@ -5,7 +5,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-heading">
-                        <h2><span>The trusted</span>from over 12,000 clients</h2>
+                        <h2>
+                          <span>The trusted</span>
+                          from over 12,000 clients
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -14,7 +17,11 @@
                     <div class="testimonials-slides owl-carousel owl-theme">
                         <div class="review-item">
                             <div class="client-img">
-                                <img src="../assets/images/clients/test-1.jpg" alt="" class="img-fluid">
+                                <img
+                                    src="../assets/images/clients/test-1.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                >
                             </div>
                             <div class="info-desc">
                                 “It’s been an absolute pleasure to work with Clenora,their response to our brief
@@ -30,7 +37,11 @@
 
                         <div class="review-item">
                             <div class="client-img">
-                                <img src="../assets/images/clients/test-2.jpg" alt="" class="img-fluid">
+                                <img
+                                    src="../assets/images/clients/test-2.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                >
                             </div>
                             <div class="info-desc">
                                 “It’s been an absolute pleasure to work with Clenora, their response to our brief
@@ -46,7 +57,11 @@
 
                         <div class="review-item">
                             <div class="client-img">
-                                <img src="../assets/images/clients/test-3.jpg" alt="" class="img-fluid">
+                                <img
+                                    src="../assets/images/clients/test-3.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                >
                             </div>
                             <div class="info-desc">
                                 “It’s been an absolute pleasure to work with Clenora, their response to our brief
@@ -61,7 +76,11 @@
                         </div>
                         <div class="review-item">
                             <div class="client-img">
-                                <img src="../assets/images/clients/test-2.jpg" alt="" class="img-fluid">
+                                <img
+                                    src="../assets/images/clients/test-2.jpg"
+                                    alt=""
+                                    class="img-fluid"
+                                >
                             </div>
                             <div class="info-desc">
                                 “It’s been an absolute pleasure to work with Clenora, their response to our brief
@@ -84,19 +103,39 @@
                 <div class="col-lg-12 ">
                     <div class="clients-inner">
                         <div class="client-logo">
-                            <img src="../assets/images/clients/01-brand.png" alt="" class="img-fluid">
+                            <img
+                                src="../assets/images/clients/01-brand.png"
+                                alt=""
+                                class="img-fluid"
+                            >
                         </div>
                         <div class="client-logo">
-                            <img src="../assets/images/clients/02-brand.png" alt="" class="img-fluid">
+                            <img
+                                src="../assets/images/clients/02-brand.png"
+                                alt=""
+                                class="img-fluid"
+                            >
                         </div>
                         <div class="client-logo">
-                            <img src="../assets/images/clients/03-brand.png" alt="" class="img-fluid">
+                            <img
+                                src="../assets/images/clients/03-brand.png"
+                                alt=""
+                                class="img-fluid"
+                            >
                         </div>
                         <div class="client-logo">
-                            <img src="../assets/images/clients/04-brand.png" alt="" class="img-fluid">
+                            <img
+                                src="../assets/images/clients/04-brand.png"
+                                alt=""
+                                class="img-fluid"
+                            >
                         </div>
                         <div class="client-logo">
-                            <img src="../assets/images/clients/05-brand.png" alt="" class="img-fluid">
+                            <img
+                                src="../assets/images/clients/05-brand.png"
+                                alt=""
+                                class="img-fluid"
+                            >
                         </div>
                     </div>
                 </div>

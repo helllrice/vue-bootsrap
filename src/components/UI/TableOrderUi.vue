@@ -28,7 +28,9 @@
                 <td>03.04.23  19:22</td>
                 <td>03.04.23  19:22</td>
                 <th>Исполняется</th>
-                <th><modal-order-ui /></th>
+                <th>
+                  <modal-order-ui />
+                </th>
             </tr>
             <tr>
                 <th scope="row">3</th>
@@ -36,7 +38,9 @@
                 <td>03.04.23  19:22</td>
                 <td>03.04.23  19:22</td>
                 <th>Завершен</th>
-                <th><modal-order-ui /></th>
+                <th>
+                  <modal-order-ui />
+                </th>
             </tr>
             <tr>
                 <th scope="row">4</th>
@@ -44,7 +48,9 @@
                 <td>03.04.23  19:22</td>
                 <td>03.04.23  19:22</td>
                 <th>Отменен</th>
-                <th><modal-order-ui /></th>
+                <th>
+                  <modal-order-ui />
+                </th>
             </tr>
             </tbody>
         </table>
