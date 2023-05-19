@@ -21,28 +21,13 @@ import MyTestimonial from "@/components/Testimonial.vue";
 import MyPricing from "@/components/Pricing.vue";
 import MyBlog from "@/components/Blog.vue";
 import MyFooter from "@/components/Footer.vue";
-import axios from "axios";
+
 
 export default {
     name: "my-main",
     components: {MyFooter, MyBlog, MyPricing, MyTestimonial, MyProcess, MyAbout, MyFeature, MyBanner, CardUi, MyHeader},
 
-    data() {
-        return {
-            user: null
-        }
-    },
 
-     async created() {
-         const response = await axios.get('http://localhost:3000/messages', {
-             headers: {
-                 Authorization: 'Bearer ' + localStorage.getItem('token')
-             }
-         }, []);
-
-         this.user = response.data;
-
-     }
 }
 </script>
 

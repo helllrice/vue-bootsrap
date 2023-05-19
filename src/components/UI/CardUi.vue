@@ -6,7 +6,9 @@
               <h5 class="card-title">Генеральная уборка</h5>
               <p class="card-text">Генеральная уборка в жилых помещениях осуществяется бригатой специально обученных специалистов прошедших службу безопасности</p>
               <h3>от 70 руб / м2</h3>
-              <button type="button" class="btn btn-warning btn-card">Заказать</button>
+              <router-link to="/profile">
+                <button type="button" class="btn btn-warning btn-card">Заказать</button>
+              </router-link>
           </div>
       </div>
   </div>
